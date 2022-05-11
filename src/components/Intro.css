@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+p {
+  font-size: 5rem;
+  margin: 1rem;
+}
+p:nth-child(odd) {
+  color: #8892b0;
+}
+p span:hover {
+  background-color: #ccd6f6;
+  background-image: linear-gradient(45deg, #64ffda, #ccd6f6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
