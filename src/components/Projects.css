@@ -1,0 +1,8 @@
+h2 {
+  text-align: center;
+  color: #64ffda;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}

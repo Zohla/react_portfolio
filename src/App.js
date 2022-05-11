@@ -9,12 +9,6 @@ function App() {
       <Header />
       <Intro />
       <Projects />
-      <p>
-        <p>
-          Successfully Deployed <code>A React application</code> to Netlify with
-          CircleCI
-        </p>
-      </p>
 
       <img src={logo} className="App-logo" alt="logo" />
     </div>
