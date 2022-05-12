@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div>
       <h2>Some things I've made</h2>;
-      <div className="cards-container">
+      <div className="cards-container" id="cards-container">
         <Card />
         <Card />
         <Card />
