@@ -2,7 +2,7 @@ import "./Intro.css";
 
 function Intro() {
   return (
-    <section>
+    <section className="Intro">
       <p>Hi!</p>
       <p>
         I'm<span> Maren,</span>
