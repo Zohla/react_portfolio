@@ -1,10 +1,30 @@
-.card-container p {
-  font-size: 1.25rem;
-}
 .card-container {
   max-width: 500px;
   border: 2px solid #8892b0;
-  margin: 2rem;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.card-container a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #ccd6f6;
+  padding: 0.5rem;
+}
+.card-container a .card-name {
+  align-self: center;
+  font-size: 1.5rem;
+}
+.card-container a,
+.card-container p,
+.tools {
+  background-color: #030d1c;
+}
+
+.card-container p {
+  font-size: 1.25rem;
+  padding: 0 1rem;
 }
 .card-container img {
   max-width: 100%;

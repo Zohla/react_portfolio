@@ -28,18 +28,24 @@ import maweb from "../maweb.png";
 function Card() {
   return (
     <div className="card-container">
-      <p>Maweb</p>
-      <p>
-        A blog about web development. WordPress as a headless CMS. Posts and
-        gets data.
-      </p>
-      <img src={maweb} alt="screenshot of the MAWEB blog index page" />
-      <div className="tools">
-        <p>HTML/CSS</p>
-        <p>JavaScript</p>
-        <p>API</p>
-        <p>WordPress</p>
-      </div>
+      <a
+        href="https://maweb.netlify.app/index.html"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <p className="card-name">Maweb</p>
+        <p>
+          A blog about web development. WordPress as a headless CMS. Posts and
+          gets data.
+        </p>
+        <img src={maweb} alt="screenshot of the MAWEB blog index page" />
+        <div className="tools">
+          <p>HTML/CSS</p>
+          <p>JavaScript</p>
+          <p>API</p>
+          <p>WordPress</p>
+        </div>
+      </a>
     </div>
   );
 }
