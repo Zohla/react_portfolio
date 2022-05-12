@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div>
         <ul className="Footer-list">
-          <a href="#Projects" className="Nav-item">
+          <a href="#cards-container" className="Nav-item">
             <li>Projects</li>
           </a>
           <a href="#About" className="Nav-item">
