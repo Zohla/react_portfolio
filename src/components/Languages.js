@@ -40,7 +40,7 @@ function Languages() {
         <div className="Knowledge-container">
           <h4>Other tools, and academic studies.</h4>
           <div className="Tools-tech">
-            <div>
+            <div className="Col1">
               <h5>Tools and tech</h5>
               <p>
                 jQuery, nmp, Node.js, AdobeXD, Adobe Illustrator, VS Code,
