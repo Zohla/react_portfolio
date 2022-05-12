@@ -12,6 +12,7 @@ const projectData = [
     img: maweb,
     tools: "HTML/CSS, JavaScript, API, WordPress",
     url: "https://maweb.netlify.app/index.html",
+    alt: "screenshot of the MAWEB blog index page",
   },
   {
     id: "2",
@@ -20,6 +21,7 @@ const projectData = [
     img: rainydays,
     tools: "HTML/CSS, JavaScript, API, WordPress",
     url: "https://rainydaysclothes.netlify.app/",
+    alt: "screenshot of the Rainydays landing page",
   },
   {
     id: "3",
@@ -28,6 +30,7 @@ const projectData = [
     img: mars_rover,
     tools: "HTML/CSS, JavaScript, API",
     url: "https://roverphotos.netlify.app/",
+    alt: "screenshot of the Mars Rover Photos web app",
   },
 ];
 
