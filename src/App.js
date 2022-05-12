@@ -9,7 +9,6 @@ function App() {
       <Header />
       <Intro />
       <Projects />
-
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
