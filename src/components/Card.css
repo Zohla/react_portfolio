@@ -10,7 +10,12 @@
   flex-direction: column;
   text-decoration: none;
   color: #ccd6f6;
-  padding: 0.5rem;
+}
+.card-container:hover {
+  border-color: var(--contrast-color);
+  transform: translateY(-10px);
+  transition: all 0.25s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  box-shadow: 0 5px 14px rgba(100, 255, 218, 0.24);
 }
 .card-container a .card-name {
   align-self: center;
