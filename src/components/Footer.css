@@ -1,0 +1,21 @@
+footer {
+  margin-top: 2rem;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid var(--contrast-color);
+  align-items: center;
+}
+
+.Footer-list a {
+  text-decoration: none;
+  list-style: none;
+  color: var(--contrast-color);
+}
+.Footer-list a li {
+  margin-top: 1rem;
+}
+.Footer-list a li:hover {
+  text-decoration: underline 4px var(--contrast-color);
+}
