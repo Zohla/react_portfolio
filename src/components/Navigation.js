@@ -7,8 +7,12 @@ function Navigation() {
         <li>
           <a href="#cards-container">Projects</a>
         </li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
       </ul>
     </nav>
   );
