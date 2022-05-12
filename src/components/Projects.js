@@ -7,30 +7,32 @@ import mars_rover from "../mars_rover.png";
 const projectData = [
   {
     id: "1",
-    title: "Maweb",
+    title: "MAWEB",
     info: "A blog about web development. WordPress as a headless CMS. Posts and gets data.",
     img: maweb,
-    tools: "HTML/CSS, JavaScript, API, WordPress",
-    url: "https://maweb.netlify.app/index.html",
     alt: "screenshot of the MAWEB blog index page",
+    tools: ["HTML/CSS", "JavaScript", "API", "WordPress"],
+    url: "https://maweb.netlify.app/index.html",
   },
   {
     id: "2",
     title: "Rainydays",
     info: "A website and store for a clothing company. Uses WordPress as a headless CMS.",
     img: rainydays,
-    tools: "HTML/CSS, JavaScript, API, WordPress",
+    tools: ["HTML/CSS", "JavaScript", "API", "WordPress"],
     url: "https://rainydaysclothes.netlify.app/",
     alt: "screenshot of the Rainydays landing page",
+    gitUrl: "https://github.com/Zohla/rainydays",
   },
   {
     id: "3",
     title: "Mars Rover Photos",
     info: "A web app that uses a NASA API to display photos taken by the Mars rovers.",
     img: mars_rover,
-    tools: "HTML/CSS, JavaScript, API",
-    url: "https://roverphotos.netlify.app/",
     alt: "screenshot of the Mars Rover Photos web app",
+    tools: ["HTML/CSS", "JavaScript", "API"],
+    url: "https://roverphotos.netlify.app/",
+    gitUrl: "https://github.com/Zohla/Mars-Rover-Photos",
   },
 ];
 
@@ -52,6 +54,7 @@ function Projects() {
           tools={projectData[1].tools}
           img={projectData[1].img}
           url={projectData[1].url}
+          gitUrl={projectData[1].gitUrl}
         />
         <Card
           title={projectData[2].title}
@@ -59,6 +62,7 @@ function Projects() {
           tools={projectData[2].tools}
           img={projectData[2].img}
           url={projectData[2].url}
+          gitUrl={projectData[2].gitUrl}
         />
       </div>
     </div>
