@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
 import Languages from "./components/Languages";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Intro />
       <Projects />
       <Languages />
+      <About />
+      <Contact />
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
