@@ -15,3 +15,6 @@
 .Tools-tech {
   display: flex;
 }
+.Col1 p {
+  margin-right: 0.5rem;
+}
