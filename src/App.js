@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Languages from "./components/Languages";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Languages />
       <About />
       <Contact />
+      <Footer />
       <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
