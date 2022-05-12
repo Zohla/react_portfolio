@@ -1,11 +1,13 @@
-section {
+.Intro {
   display: flex;
   flex-direction: column;
-  margin-left: 3rem;
+  margin: 7rem auto 5rem;
+  max-width: 1500px;
 }
 .Intro p {
   font-size: 5rem;
-  margin: 1rem;
+  margin: 2rem;
+  line-height: 5rem;
 }
 .Intro p:nth-child(odd) {
   color: #8892b0;
