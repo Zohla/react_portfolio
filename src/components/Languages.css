@@ -1,0 +1,17 @@
+.All-languages-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 700px;
+}
+.All-languages-container p {
+  font-size: 1.25rem;
+}
+.Knowledge-container {
+  border: 2px solid var(--light-color);
+  padding: 1rem;
+  margin: 2rem 0;
+}
+.Tools-tech {
+  display: flex;
+}
