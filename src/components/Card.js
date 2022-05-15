@@ -1,14 +1,26 @@
 import "./Card.css";
+
 import githubIcon from "../github.png";
 import linkIcon from "../external-link.png";
-
+/* import ReactTooltip from "react-tooltip";
+import GitHubTooltip from "./Tooltip";
+ */
 function Card(props) {
   return (
     <div className="card-container">
       <div className="Card-header">
         <p className="card-name">{props.title}</p>
-        <a href={props.gitUrl}>
-          <img src={githubIcon} alt="github-icon" className="Github-icon"></img>
+        <a target="_blank" rel="noreferrer" href={props.gitUrl}>
+          {/* <ReactTooltip id={props.id} place="top" effect="solid">
+            {props.gitHubTooltip}
+          </ReactTooltip> */}
+          {/* data-tip
+            data-for={props.id} */}
+          <img
+            src={githubIcon}
+            alt="github-icon"
+            className="Github-icon icon"
+          ></img>
         </a>
         <a
           href={props.url}
@@ -16,10 +28,15 @@ function Card(props) {
           rel="noreferrer"
           className="Live-preview"
         >
+          {/*  <ReactTooltip id={props.liveId} place="top" effect="solid">
+            View live
+          </ReactTooltip> */}
           <img
             src={linkIcon}
             alt="follow link to live page"
-            className="Link-icon"
+            className="Link-icon icon"
+            data-tip
+            data-for={props.liveId}
           ></img>
         </a>
       </div>
