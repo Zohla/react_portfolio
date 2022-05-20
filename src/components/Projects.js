@@ -3,6 +3,7 @@ import "./Projects.css";
 import maweb from "../maweb.png";
 import rainydays from "../rainydays.png";
 import mars_rover from "../mars_rover.png";
+import whenDidILast from "../whenDidILastScreenshot.png";
 /* import ReactTooltip from "react-tooltip";
  */
 const icons = document.querySelectorAll(".icon");
@@ -11,7 +12,7 @@ console.log(icons);
 const projectData = [
   {
     id: "1",
-    liveId: "a",
+    liveId: "101",
     title: "MAWEB",
     info: "A blog about web development. WordPress as a headless CMS. Posts and gets data.",
     img: maweb,
@@ -22,7 +23,7 @@ const projectData = [
   },
   {
     id: "2",
-    liveId: "b",
+    liveId: "102",
     title: "Rainydays",
     info: "A website and store for a clothing company. Uses WordPress as a headless CMS.",
     img: rainydays,
@@ -34,7 +35,7 @@ const projectData = [
   },
   {
     id: "3",
-    liveId: "c",
+    liveId: "103",
     title: "Mars Rover Photos",
     info: "A web app that uses a NASA API to display photos taken by the Mars rovers.",
     img: mars_rover,
@@ -42,6 +43,18 @@ const projectData = [
     tools: ["HTML/CSS", "JavaScript", "API"],
     url: "https://roverphotos.netlify.app/",
     gitUrl: "https://github.com/Zohla/Mars-Rover-Photos",
+    gitHubTooltip: "Go to GitHub repo",
+  },
+  {
+    id: "4",
+    liveId: "104",
+    title: "When did I last?",
+    info: "A task tracker that tracks when you last did something.",
+    img: whenDidILast,
+    alt: "screenshot of the task tracker app",
+    tools: ["HTML/CSS", "JavaScript"],
+    url: "https://whendidilast.netlify.app/",
+    gitUrl: "https://github.com/Zohla/When-did-I-last",
     gitHubTooltip: "Go to GitHub repo",
   },
 ];
@@ -82,6 +95,17 @@ function Projects() {
           url={projectData[2].url}
           gitUrl={projectData[2].gitUrl}
           gitHubTooltip={projectData[2].gitHubTooltip}
+        />
+        <Card
+          id={projectData[3].id}
+          liveId={projectData[3].liveId}
+          title={projectData[3].title}
+          info={projectData[3].info}
+          tools={projectData[3].tools}
+          img={projectData[3].img}
+          url={projectData[3].url}
+          gitUrl={projectData[3].gitUrl}
+          gitHubTooltip={projectData[3].gitHubTooltip}
         />
       </div>
     </div>
