@@ -1,15 +1,45 @@
 # Personal Portfolio
 
+
+## Description
+My portfolio rebuildt with React.
+
+## Built With
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Getting Started
+
+### Installing
+
+
+1. Clone the repo:
+
+```bash
+git clone 
+```
+
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+To run the app, run the following commands:
+
+```bash
+npm  start
+```
+
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
