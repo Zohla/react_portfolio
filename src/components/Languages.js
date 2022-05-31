@@ -37,6 +37,22 @@ function Languages() {
             page is made with React.
           </p>
         </div>
+        <div className="Language-container">
+          <h4>Other languages I've touched upon</h4>
+          <p>
+            <span>Java: </span> I've taken some courses on Java and like the
+            prospect of Java as my back-end language.
+          </p>
+          <p>
+            <span>SQL: </span> I've taken a few courses to familiarize myself
+            with the technology.
+          </p>
+          <p>
+            <span>Python: </span> My first programming language. I learned a lot
+            that I could bring with me starting JavaScript, but I've not touched
+            it much since.
+          </p>
+        </div>
         <div className="Knowledge-container">
           <h4>Other tools, and academic studies.</h4>
           <div className="Tools-tech">

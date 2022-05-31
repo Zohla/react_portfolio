@@ -19,7 +19,7 @@ function About() {
         I enjoy exploring and mastering new technologies, but I believe that we
         should take no shortcuts if it's depriving someone of having access to
         the things we are building. Therefore, writing semantically correct
-        markup and making the product accessible is important to me. me.
+        markup and making the product accessible is important to me.
       </p>
       <p>
         In my spare time, I spend time with family and friends, and I am

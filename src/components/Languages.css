@@ -7,6 +7,9 @@
 .All-languages-container p {
   font-size: 1.25rem;
 }
+.Language-container p span {
+  color: var(--contrast-color);
+}
 .Knowledge-container {
   border: 2px solid var(--light-color);
   padding: 1rem;
