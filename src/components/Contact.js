@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="Contact">
       <h3>Contact</h3>
-      <p>
+      <adress>
         I'm currently looking for new opportunities, and my{" "}
         <a href="mailto:marenlilleberre@gmail.com">
           <span className="Link-hover">inbox</span>{" "}
@@ -25,7 +25,7 @@ function Contact() {
         >
           <span className="Link-hover">Twitter</span>.
         </a>
-      </p>
+      </adress>
     </section>
   );
 }
